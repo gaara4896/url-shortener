@@ -1,0 +1,63 @@
+@import '~antd/es/style/themes/default.less';
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  background-color: #fff;
+  font-feature-settings: 'tnum';
+}
+
+#__next {
+  display: flex;
+  height: 100%;
+}
+
+@padding-xl: 32px;
+@padding-xxl: 40px;
+
+.success {
+  color: @success-color;
+}
+
+.error {
+  color: @error-color;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: @screen-sm-min) {
+    width: 540px;
+  }
+
+  @media screen and (min-width: @screen-md-min) {
+    width: 720px;
+  }
+
+  @media screen and (min-width: @screen-lg-min) {
+    width: 960px;
+  }
+
+  @media screen and (min-width: @screen-xl-min) {
+    width: 1140px;
+  }
+}
+
+.page-content {
+  padding: @padding-md @padding-lg;
+}
